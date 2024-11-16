@@ -1,5 +1,5 @@
 body {
-    background:#aca7a7;
+    background:#e7f1f5;
     font-family: arial;
 }
 
@@ -26,10 +26,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     list-style-type: none;
-
-}
-
-.row {
 
 }
 
