@@ -29,6 +29,13 @@ body {
     background:#f1f7f7;
 }
 
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Navigation bar section */
+
 #navbar {
     margin-top: 3%;
     margin-bottom: 3%;
@@ -37,6 +44,24 @@ body {
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+}
+
+#navbar h2.sections {
+    font-size: 1.5em;
+    text-align: center;
+    border-top: 2px solid #020202;
+    border-bottom: 2px solid #020202;
+    padding: 15px 0;
+}
+
+#navbar h2.sections a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar h2.sections a:hover {
+    color: #007bff;
 }
 
 /* About section */
@@ -52,12 +77,33 @@ body {
     justify-content: center;
     border-top: 2px solid #0202021c;
     border-bottom: 2px solid #0202021c;
+    border-left: 2px solid #0202021c;
+    border-right: 2px solid #0202021c;
 }
 
-#about img {
+#about .profile {
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     padding: 0 2%;
+}
+
+#about .profile img {
+    width: 100%;
+    height: 80%;
+}
+
+#about .profile .socials {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+}
+
+#about h2 {
+    padding: 0 0 5% 0;
+    justify-content: center;
+    font-size: 35px;
 }
 
 #about #bio {
@@ -65,56 +111,33 @@ body {
     width: 50%;
     height: 100%;
     padding: 0 2%;
-}
-
-/* Remember short form syntax is [top] [] [] [] */
-#about h2 {
-    padding: 0 0 5% 0;
-    justify-content: center;
+    align-content: center;
+    overflow: auto;
 }
 
 #about #bio p {
     margin-bottom: 5%;
 }
 
-/* News section */
+/* News backlog section */
+
 #news {
-    padding: 2%;
+    padding: 1%;
     margin-bottom: 3%;
     width: 100%;
     height: 20%;
-    display: flex;
     justify-content: center;
     border-bottom: 2px solid #0202021c;
+    border-left: 2px solid #0202021c;
+    border-right: 2px solid #0202021c;
+    overflow-y: scroll;
 }
 
-/* For the header... */
-
-h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
+#news h2 {
+    font-size: 30px;
+    justify-content: center;
 }
 
-
-h2.sections {
-    font-size: 1.5em;
-    text-align: center;
-    border-top: 2px solid #020202;
-    border-bottom: 2px solid #020202;
-    padding: 15px 0;
-}
-
-h2.sections a {
-    margin: 0 30px;
-    text-decoration: none;
-    color: black;
-}
-
-h2.sections a:hover {
-    color: #007bff;
-}
-
-hr {
-    width: 80%;
-    margin: 20px auto;
+#news .items {
+    font-size: 20px;
 }
