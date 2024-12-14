@@ -69,16 +69,12 @@ h1 {
 #about {
     /* margin-top: 3%; */
     /* margin-bottom: 3%; */
-    padding-top: 3%;
-    padding-bottom: 3%;
+    /* padding-top: 3%;
+    padding-bottom: 3%; */
     width: 100%;
-    height: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    border-top: 2px solid #0202021c;
-    border-bottom: 2px solid #0202021c;
-    border-left: 2px solid #0202021c;
-    border-right: 2px solid #0202021c;
 }
 
 #about .profile {
@@ -86,24 +82,20 @@ h1 {
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 0 2%;
+    padding-left: 0%;
+    padding-right: 2%;
+    padding-bottom: 4%;
 }
 
 #about .profile img {
     width: 100%;
-    height: 80%;
-}
-
-#about .profile .socials {
-    width: 100%;
-    padding: 2%;
-    display: flex;
+    height: 100%;
 }
 
 #about h2 {
-    padding: 0 0 5% 0;
+    padding: 0 0 8% 0;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 #about #bio {
@@ -116,12 +108,24 @@ h1 {
 }
 
 #about #bio p {
-    margin-bottom: 5%;
+    margin-bottom: 6%;
+}
+
+#about #bio p.socials {
+    padding-top: 2%;
+}
+
+img.icon {
+    width: 60px;
+    height: 60px;
+    /* padding-top: 10px; */
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 /* News backlog section */
 
-#news {
+/* #news {
     padding: 1%;
     margin-bottom: 3%;
     width: 100%;
@@ -140,4 +144,4 @@ h1 {
 
 #news .items {
     font-size: 20px;
-}
+} */
